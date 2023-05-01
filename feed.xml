@@ -3,10 +3,77 @@
     <title>Ronak Gothi</title>
     <link href="https://ronakgothi.com/feed.xml" rel="self" />
     <link href="https://ronakgothi.com" />
-    <updated>1970-01-01T05:30:00+05:30</updated>
+    <updated>2023-05-01T22:00:17+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
     <id>https://ronakgothi.com</id>
 
+    <entry>
+        <title>Projects</title>
+        <author>
+            <name>Ronak Gothi</name>
+        </author>
+        <link href="https://ronakgothi.com/projects/"/>
+        <id>https://ronakgothi.com/projects/</id>
+
+        <updated>2023-05-01T22:00:17+05:30</updated>
+            <summary>
+                <![CDATA[
+                    Shutdown - Automatically parse banking data and allow users to search/sort/filter the now structured data. Couldn't make money.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p> </p>
+<table style="border-collapse: collapse; width: 109.402%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">Name</td>
+<td style="width: 21.2251%;">Launch Date</td>
+<td style="width: 45.2991%;">Status</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">jQuery slider Yii plugin</td>
+<td style="width: 21.2251%;">2012</td>
+<td style="width: 45.2991%;">Shutdown - Didn't materialize</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">ParseShuttingDown.com</td>
+<td style="width: 21.2251%;">2016</td>
+<td style="width: 45.2991%;">Shutdown - Easy script to migrate Parse to self hosted MongoDB app.</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Improved Zeroda Kite</td>
+<td style="width: 21.2251%;">2017</td>
+<td style="width: 45.2991%;">Shutdown - Chrome extension, Ran for 2 years, Zerodha changed their Frontend source code to Vue.js thus shut it down.</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Auto Twitter self block</td>
+<td style="width: 21.2251%;">2020</td>
+<td style="width: 45.2991%;">Didn't launch - Automatically block yourself from Twitter by mass unfollowing all your subscriber and resubscribing them after X days. Couldn't launch as Twitter had max threshold of 400 follows/unfollow per day.</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">ScanTheMarket</td>
+<td style="width: 21.2251%;">2020</td>
+<td style="width: 45.2991%;">
+<p>Shutdown - Automatically parse banking data and allow users to search/sort/filter the now structured data. Couldn't make money.</p>
+</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Beamdock.com</td>
+<td style="width: 21.2251%;">2020</td>
+<td style="width: 45.2991%;">Shutdown - Got few paying customers, but failed to get enough traction.</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">GoalSlash</td>
+<td style="width: 21.2251%;">2022</td>
+<td style="width: 45.2991%;">Active - Personal project to track daily/weekly/monthly/quaterly/yearly goals. I'm more interested in visual charts, hence made this.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
