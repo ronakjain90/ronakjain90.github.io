@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ronak Gothi",
+    "description": "",
+    "home_page_url": "https://ronakgothi.com",
+    "feed_url": "https://ronakgothi.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Ronak Gothi"
+    },
+    "items": [
+    ]
+}
