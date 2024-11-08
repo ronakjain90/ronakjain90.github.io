@@ -1,23 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Ronak Gothi</title>
-    <link href="https://ronakgothi.com/feed.xml" rel="self" />
-    <link href="https://ronakgothi.com" />
-    <updated>2023-05-26T18:26:27+05:30</updated>
+    <title>Ronak&#x27;s Blog</title>
+    <link href="https://ronakjain90.github.io/feed.xml" rel="self" />
+    <link href="https://ronakjain90.github.io" />
+    <updated>2024-11-08T19:03:08+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
-    <id>https://ronakgothi.com</id>
+    <id>https://ronakjain90.github.io</id>
 
+    <entry>
+        <title>Ease of maintenance is a feature</title>
+        <author>
+            <name>Ronak Gothi</name>
+        </author>
+        <link href="https://ronakjain90.github.io/ease-of-maintenance-is-a-feature/"/>
+        <id>https://ronakjain90.github.io/ease-of-maintenance-is-a-feature/</id>
+
+        <updated>2024-11-08T19:03:08+05:30</updated>
+            <summary>
+                <![CDATA[
+                    As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny doll that everyone wants to implement in their code, put it on their resume. But little emphasis is given on ease of maintenance.</p>
+<p>I say ease of maintenance is a feature.</p>
+<p>Ease of maintenance is how long it takes for someone to</p>
+<ol>
+<li>Clone the source code</li>
+<li>Set up the codebase while also installing all the relevant dependencies</li>
+<li>Boot the codebase on a local machine</li>
+<li>Make that one-line change</li>
+<li>Do a small smoke test to ascertain everything is working correctly</li>
+<li>Push the changes to git or other versioning system</li>
+<li>Watch the CI/CD pipeline run and see the changes live
+<ol>
+<li>In some cases, this may also mean manually triggering a deploy because CD is not automated.</li>
+</ol>
+</li>
+</ol>
+<p>If it takes you more than an hour to go through all the above steps, you are not maintaining the software, you are fighting against a complex, "shiny" piece of tech that's so good it takes ages to ship even a small one-line change.</p>
+<p>Software should be built to future-proof against the following scenarios:</p>
+<ul>
+<li>Software ownership changes</li>
+<li>Developers move on</li>
+<li>That "shiny" piece of tech may not be maintained a year from now</li>
+<li>There is a financial crisis, and the original code author is not available anymore</li>
+<li>The team is too busy with other growth areas, but high maintenance is high friction.</li>
+<li>The team is downsized from 100 engineers to 10 engineers, and not everyone would have experience with the codebase.</li>
+<li>Certain skills are so rare it's impossible/beyond budget to hire talent for those skills.</li>
+</ul>
+<p>Software should be built to last forever.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Greater Good</title>
         <author>
             <name>Ronak Gothi</name>
         </author>
-        <link href="https://ronakgothi.com/the-greater-good/"/>
-        <id>https://ronakgothi.com/the-greater-good/</id>
+        <link href="https://ronakjain90.github.io/the-greater-good/"/>
+        <id>https://ronakjain90.github.io/the-greater-good/</id>
 
-        <updated>2023-05-26T18:26:27+05:30</updated>
+        <updated>2024-11-08T18:09:08+05:30</updated>
             <summary>
                 <![CDATA[
                     When you perform actions that might not benefit you in any way and can sometimes not be in the best&hellip;
@@ -25,45 +72,30 @@
             </summary>
         <content type="html">
             <![CDATA[
-                
-  <p>
-    When you perform actions that might not benefit you in any way and can sometimes not be in the best interest of your own-self, however, if the impact on the community is profound. Congratulations, you are a part of the "greater good" club.<br>
-  </p>
-
-    <figure class="post__image post__image--full">
-      <img loading="lazy" src="https://ronakgothi.com/media/posts/2/matt-collamer-8UG90AYPDW4-unsplash.jpg" height="427" width="640" alt="Seeking human kindness"  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-xs.jpg 384w ,https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-sm.jpg 600w ,https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-md.jpg 768w ,https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-lg.jpg 1200w ,https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl.jpg 1600w">
-      <figcaption>Photo by Matt Collamer on Unsplash</figcaption>
-    </figure>
-
-  <p>
-    Try answering the following questions
-  </p>
-
-  <ul>
-    <li>Why is the tax collection in many countries still so low?</li><li>Why is corruption so rampant in the developing world?</li><li>Why did some countries had and continue to have dictators?</li><li>Why is healthcare so unaffordable?</li><li>Why do politicians sometimes find ways to stay in power forever?</li><li>Why are some discoveries important to human existence patented?</li><li>Why does society have so much wealth inequality?</li><li>Why did the slave trade exist?<br></li><li>Why do politicians in some countries amass a fortune in their lifetime?<br></li>
-  </ul>
-
-  <p>
-    The answer to many of the questions above can be attributed to self-first philosophy. Keeping oneself above anything else. We have more people who act in their self-interest, instead of thinking of their community, locality, city, state, country, and planet.
-  </p>
-
-  <p>
-    Statistically, if extreme human kindness is Gaussian distributed, we should still have about 2% of the world population above Mean + 2SD (standard deviation). 2% of 8B humans is 160M people, but we aren't reading about examples of extreme human compassion that often. What if the mean itself is heavily tilted towards self-interest philosophy, this could probably be due to human evolution wherein genetically we are programmed to survive first. Survival of the fittest is the game we are playing still now.
-  </p>
-
-  <p>
-    But there exist individuals who have made significant contributions to humanity, whilst not enriching oneself[1]. Imagine a world where we have more people in the "Greater Good" Club when compared to the "Self Interest" Group. Wouldn't the world be such a lovely place to live?
-  </p>
-
-    <h6 id="1-how-one-company-gave-up-a-patent-and-saved-1-million-liveslessbrgreaterlessbrgreater">
-      <a href="https://www.cntraveller.in/story/invention-saved-million-lives-use-without-fail/" rel="nofollow noopener" target="_blank">
-      [1] - How one company gave up a patent—and saved 1 million lives<br><br>
-      </a>
-    </h6>
-
-  <p>
-    
-  </p>
+                <div class="post__entry">
+<p>When you perform actions that might not benefit you in any way and can sometimes not be in the best interest of your own-self, however, if the impact on the community is profound. Congratulations, you are a part of the "greater good" club.</p>
+<figure><figure class="post__image"><img loading="lazy"  src="https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl.jpg" alt="" width="640" height="427" data-is-external-image="true"></figure></figure>
+<figure class="post__image post__image--full"><br>
+<figcaption>Photo by Matt Collamer on Unsplash</figcaption>
+</figure>
+<p>Try answering the following questions</p>
+<ul>
+<li>Why is the tax collection in many countries still so low?</li>
+<li>Why is corruption so rampant in the developing world?</li>
+<li>Why did some countries had and continue to have dictators?</li>
+<li>Why is healthcare so unaffordable?</li>
+<li>Why do politicians sometimes find ways to stay in power forever?</li>
+<li>Why are some discoveries important to human existence patented?</li>
+<li>Why does society have so much wealth inequality?</li>
+<li>Why did the slave trade exist?</li>
+<li>Why do politicians in some countries amass a fortune in their lifetime?</li>
+</ul>
+<p>The answer to many of the questions above can be attributed to self-first philosophy. Keeping oneself above anything else. We have more people who act in their self-interest, instead of thinking of their community, locality, city, state, country, and planet.</p>
+<p>Statistically, if extreme human kindness is Gaussian distributed, we should still have about 2% of the world population above Mean + 2SD (standard deviation). 2% of 8B humans is 160M people, but we aren't reading about examples of extreme human compassion that often. What if the mean itself is heavily tilted towards self-interest philosophy, this could probably be due to human evolution wherein genetically we are programmed to survive first. Survival of the fittest is the game we are playing still now.</p>
+<p>But there exist individuals who have made significant contributions to humanity, whilst not enriching oneself[1]. Imagine a world where we have more people in the "Greater Good" Club when compared to the "Self Interest" Group. Wouldn't the world be such a lovely place to live?</p>
+<h6 id="1-how-one-company-gave-up-a-patent-and-saved-1-million-liveslessbrgreaterlessbrgreater"><a href="https://www.cntraveller.in/story/invention-saved-million-lives-use-without-fail/" rel="nofollow noopener" target="_blank">[1] - How one company gave up a patent—and saved 1 million lives<br><br></a></h6>
+<p> </p>
+</div>
             ]]>
         </content>
     </entry>

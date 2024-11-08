@@ -430,81 +430,91 @@
 
 // Share buttons pop-up
 (function () {
-    // share popup
-    let shareButton = document.querySelector('.js-post__share-button');
-    let sharePopup = document.querySelector('.js-post__share-popup');
+	// share popup
+	const shareButton = document.querySelector('.js-content__share-button');
+	const sharePopup = document.querySelector('.js-content__share-popup');
 
-    if (shareButton) {
-        sharePopup.addEventListener('click', function (e) {
-            e.stopPropagation();
-        });
+	if (shareButton && sharePopup) {
+		 sharePopup.addEventListener('click', function (e) {
+			  e.stopPropagation();
+		 });
 
-        shareButton.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            sharePopup.classList.toggle('is-visible');
-        });
+		 shareButton.addEventListener('click', function (e) {
+			  e.preventDefault();
+			  e.stopPropagation();
+			  sharePopup.classList.toggle('is-visible');
+		 });
 
-        document.body.addEventListener('click', function () {
-            sharePopup.classList.remove('is-visible');
-        });
-    }
+		 document.body.addEventListener('click', function () {
+			  sharePopup.classList.remove('is-visible');
+		 });
+	}
 
-    // link selector and pop-up window size
-    var Config = {
-        Link: ".js-share",
-        Width: 500,
-        Height: 500
-    };
-    // add handler links
-    var slink = document.querySelectorAll(Config.Link);
-    for (var a = 0; a < slink.length; a++) {
-        slink[a].onclick = PopupHandler;
-    }
-    // create popup
-    function PopupHandler(e) {
-        e = (e ? e : window.event);
-        var t = (e.target ? e.target : e.srcElement);
-        // hide share popup
-        if (sharePopup) {
-            sharePopup.classList.remove('is-visible');
-        }
-        // popup position
-        var px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
-            py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
-        // open popup
-        var link_href = t.href ? t.href : t.parentNode.href;
-        var popup = window.open(link_href, "social",
-            "width=" + Config.Width + ",height=" + Config.Height +
-            ",left=" + px + ",top=" + py +
-            ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
-        if (popup) {
-            popup.focus();
-            if (e.preventDefault) e.preventDefault();
-            e.returnValue = false;
-        }
+	// link selector and pop-up window size
+	const Config = {
+		 Link: ".js-share",
+		 Width: 500,
+		 Height: 500
+	};
 
-        return !!popup;
-    }
+	// add handler to links
+	const shareLinks = document.querySelectorAll(Config.Link);
+	shareLinks.forEach(link => {
+		 link.addEventListener('click', PopupHandler);
+	});
+
+	// create popup
+	function PopupHandler(e) {
+		 e.preventDefault();
+
+		 const target = e.target.closest(Config.Link);
+		 if (!target) return;
+
+		 // hide share popup
+		 if (sharePopup) {
+			  sharePopup.classList.remove('is-visible');
+		 }
+
+		 // popup position
+		 const px = Math.floor((window.innerWidth - Config.Width) / 2);
+		 const py = Math.floor((window.innerHeight - Config.Height) / 2);
+
+		 // open popup
+		 const linkHref = target.href;
+		 const popup = window.open(linkHref, "social", `
+			  width=${Config.Width},
+			  height=${Config.Height},
+			  left=${px},
+			  top=${py},
+			  location=0,
+			  menubar=0,
+			  toolbar=0,
+			  status=0,
+			  scrollbars=1,
+			  resizable=1
+		 `);
+
+		 if (popup) {
+			  popup.focus();
+		 }
+	}
 })();
 
 // Back to top 
-var backToTopButton = document.getElementById("backToTop");
+const backToTopButton = document.getElementById("backToTop");
+
 if (backToTopButton) {
-   window.onscroll = function() {backToTopScrollFunction()};
+    window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            backToTopButton.classList.add("is-visible");
+        } else {
+            backToTopButton.classList.remove("is-visible");
+        }
+    });
 
-   function backToTopScrollFunction() {
-   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-      backToTopButton.classList.add("is-visible");
-   } else {
-      backToTopButton.classList.remove("is-visible");
-     }
-   }
-
-   function backToTopFunction() {
-     document.body.scrollTop = 0;
-     document.documentElement.scrollTop = 0;
-   };
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 }
 
 
@@ -551,35 +561,33 @@ if (backToTopButton) {
 })();
 
 // Search
-var searchButton = document.querySelector('.js-search-btn');
-    searchOverlay = document.querySelector('.js-search-overlay');
-    searchInput = document.querySelector('.search__input');
+const searchButton = document.querySelector('.js-search-btn');
+const searchOverlay = document.querySelector('.js-search-overlay');
+const searchInput = document.querySelector('.search__input');
 
-if (searchButton) {
-    searchButton.addEventListener('click', function () {        
+if (searchButton && searchOverlay) {
+    searchButton.addEventListener('click', (e) => {
+        e.stopPropagation();
         searchOverlay.classList.toggle('expanded');
-       
+
         if (searchInput) {
-            setTimeout(function() {
+            setTimeout(() => {
                 if (searchOverlay.classList.contains('expanded')) {
                     searchInput.focus();
                 }
-            }, 60);  
-        }      
+            }, 60);
+        }
     });
 
-    searchOverlay.addEventListener('click', function (e) {
+    searchOverlay.addEventListener('click', (e) => {
         e.stopPropagation();
     });
 
-    searchButton.addEventListener('click', function (e) {
-        e.stopPropagation();
-    });
-
-    document.body.addEventListener('click', function () {
+    document.body.addEventListener('click', () => {
         searchOverlay.classList.remove('expanded');
     });
 }
+
 
 /**
  * Layout switcher
@@ -587,9 +595,13 @@ if (searchButton) {
  (function () {
 	let layoutButtons = document.querySelectorAll('.switchers__item');
 	let contentWrapper = document.querySelector('.l-grid');
-	let articles = contentWrapper.querySelectorAll('.c-card');
+	let articles;
 
-	if (!contentWrapper || !layoutButtons.length || !articles.length) {
+	if (contentWrapper) {
+		articles = contentWrapper.querySelectorAll('.c-card');
+	}
+
+	if (!contentWrapper || !layoutButtons.length || (articles && !articles.length)) {
 		return;
 	}
 
