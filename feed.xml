@@ -3,7 +3,7 @@
     <title>Ronak&#x27;s Blog</title>
     <link href="https://ronakgothi.com/feed.xml" rel="self" />
     <link href="https://ronakgothi.com" />
-    <updated>2024-11-08T19:03:08+05:30</updated>
+    <updated>2024-11-08T19:54:22+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
@@ -14,18 +14,18 @@
         <author>
             <name>Ronak Gothi</name>
         </author>
-        <link href="https://ronakgothi.com/ease-of-maintenance-is-a-feature/"/>
-        <id>https://ronakgothi.com/ease-of-maintenance-is-a-feature/</id>
+        <link href="https://ronakgothi.com/p/ease-of-maintenance-is-a-feature/"/>
+        <id>https://ronakgothi.com/p/ease-of-maintenance-is-a-feature/</id>
 
         <updated>2024-11-08T19:03:08+05:30</updated>
             <summary>
                 <![CDATA[
-                    As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny&hellip;
+                    As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny doll that everyone wants to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny doll that everyone wants to implement in their code, put it on their resume. But little emphasis is given on ease of maintenance.</p>
+                <p>As a person in tech, I see that there is a lot of emphasis on scalability, speed, the next shiny doll that everyone wants to implement in their code, put it on their resume. But little emphasis is given on ease of maintenance. </p>
 <p>I say ease of maintenance is a feature.</p>
 <p>Ease of maintenance is how long it takes for someone to</p>
 <ol>
@@ -36,9 +36,9 @@
 <li>Do a small smoke test to ascertain everything is working correctly</li>
 <li>Push the changes to git or other versioning system</li>
 <li>Watch the CI/CD pipeline run and see the changes live
-<ol>
+<ul>
 <li>In some cases, this may also mean manually triggering a deploy because CD is not automated.</li>
-</ol>
+</ul>
 </li>
 </ol>
 <p>If it takes you more than an hour to go through all the above steps, you are not maintaining the software, you are fighting against a complex, "shiny" piece of tech that's so good it takes ages to ship even a small one-line change.</p>
@@ -61,20 +61,20 @@
         <author>
             <name>Ronak Gothi</name>
         </author>
-        <link href="https://ronakgothi.com/the-greater-good/"/>
-        <id>https://ronakgothi.com/the-greater-good/</id>
+        <link href="https://ronakgothi.com/p/the-greater-good/"/>
+        <id>https://ronakgothi.com/p/the-greater-good/</id>
 
         <updated>2024-11-08T18:09:08+05:30</updated>
             <summary>
                 <![CDATA[
-                    When you perform actions that might not benefit you in any way and can sometimes not be in the best&hellip;
+                    When you perform actions that might not benefit you in any way and can sometimes not be in the best interest of your own-self, however,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <div class="post__entry">
-<p>When you perform actions that might not benefit you in any way and can sometimes not be in the best interest of your own-self, however, if the impact on the community is profound. Congratulations, you are a part of the "greater good" club.</p>
-<figure><figure class="post__image"><img loading="lazy"  src="https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl.jpg" alt="" width="640" height="427" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://ronakgothi.com/media/posts/2/responsive/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl-xs.jpg 384w ,https://ronakgothi.com/media/posts/2/responsive/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl-sm.jpg 600w ,https://ronakgothi.com/media/posts/2/responsive/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl-md.jpg 768w ,https://ronakgothi.com/media/posts/2/responsive/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl-lg.jpg 1200w ,https://ronakgothi.com/media/posts/2/responsive/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl-xl.jpg 1600w"></figure></figure>
+<p>When you perform actions that might not benefit you in any way and can sometimes not be in the best interest of your own-self, however, if the impact on the community is profound. Congratulations, you are a part of the "greater good" club. </p>
+<figure></figure>
 <figure class="post__image post__image--full"><br>
 <figcaption>Photo by Matt Collamer on Unsplash</figcaption>
 </figure>
