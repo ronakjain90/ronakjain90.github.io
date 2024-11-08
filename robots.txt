@@ -4,4 +4,4 @@ User-agent: GPTBot
 Disallow: /
 User-agent: *
 Disallow:
-Sitemap: https://ronakjain90.github.io/sitemap.xml
+Sitemap: https://ronakgothi.com/sitemap.xml

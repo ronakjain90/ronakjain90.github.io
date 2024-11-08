@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://ronakjain90.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://ronakgothi.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://ronakjain90.github.io/</loc>
+<loc>https://ronakgothi.com/</loc>
 </url>
 <url>
-<loc>https://ronakjain90.github.io/ease-of-maintenance-is-a-feature/</loc>
+<loc>https://ronakgothi.com/ease-of-maintenance-is-a-feature/</loc>
 <lastmod>2024-11-08T19:03:08+05:30</lastmod>
 </url>
 <url>
-<loc>https://ronakjain90.github.io/projects/</loc>
+<loc>https://ronakgothi.com/projects/</loc>
 <lastmod>2024-11-08T18:02:31+05:30</lastmod>
 </url>
 <url>
-<loc>https://ronakjain90.github.io/the-greater-good/</loc>
+<loc>https://ronakgothi.com/the-greater-good/</loc>
 <lastmod>2024-11-08T18:09:44+05:30</lastmod>
+<image:image>
+<image:loc>https://ronakgothi.com/media/posts/2/responsive/matt-collamer-8UG90AYPDW4-unsplash-xl.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 </urlset>
