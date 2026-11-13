@@ -3,7 +3,7 @@
     <title>Ronak&#x27;s Blog</title>
     <link href="https://ronakgothi.com/feed.xml" rel="self" />
     <link href="https://ronakgothi.com" />
-    <updated>2026-11-13T15:09:05+05:30</updated>
+    <updated>2026-11-13T15:11:57+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
@@ -32,7 +32,7 @@
 <p>Mercenary programmers are individuals with highly specialized technical skills, who can zip through the corporate bureaucracy, go past the red tape, work solo and in isolation with little or no guidance from the existing team and then deliver outcome really really fast. They work without burdening the existing team which feels magical. Their impact-driven business model is loved by CXOs. These are individuals who possess skills so rare, even their short stint can feel like 10x the work accomplished.</p>
 <h2>Can't this be achieved with an internal team?</h2>
 <p>the internal team is often capable, but they are already burdened with upcoming sprint, feature promised during sales call, P0 issues, recruitment, managerial bureaucracy etc.</p>
-<p>Mercenary programmers skip all of that, are answerable to no one, are brutal in their assessments, do not sugarcoat responses and are allowed to choose the best (paid) tool for a given job. When you uncage a bird, it can do wonderful things.</p>
+<p>Mercenary programmers skip all of that, are answerable to no one, are brutal in their assessments, do not sugarcoat responses and are allowed to choose the best (paid) tool for a given job. When you uncage a bird, it can do incredible things.</p>
 <h2>Why is it the end of mercenary programmers?</h2>
 <p>I've been professionally programming for 15 years. I've worn the mercenary programmer hat before and have worked with many great programmers too. But with AI making knowledge commoditised, those once-rare skills are now just a prompt away.</p>
 <p>- migrating a large application from one programming language to another.<br>- fix the application becoming slow when there are a lot of users.<br>- identify and fix a nasty memory leak in the app.<br>- upgrade the app has not been updated in 15 years to the latest framework version.<br>- check the app for HIPAA compliance.<br>- implement redundancy / reduce latency / improve performance / reduce server cost<br>- increase the throughput of a service to 50k RPS</p>
