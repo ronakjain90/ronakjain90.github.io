@@ -3,12 +3,41 @@
     <title>Ronak&#x27;s Blog</title>
     <link href="https://ronakgothi.com/feed.xml" rel="self" />
     <link href="https://ronakgothi.com" />
-    <updated>2025-04-20T18:18:36+05:30</updated>
+    <updated>2026-11-13T14:56:27+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
     <id>https://ronakgothi.com</id>
 
+    <entry>
+        <title>End of Mercenary Programmers</title>
+        <author>
+            <name>Ronak Gothi</name>
+        </author>
+        <link href="https://ronakgothi.com/p/end-of-mercenary-programmers/"/>
+        <id>https://ronakgothi.com/p/end-of-mercenary-programmers/</id>
+
+        <updated>2026-11-13T14:38:04+05:30</updated>
+            <summary>
+                <![CDATA[
+                    Who are Mercenary programmers? Mercenary programmers are individuals with highly specialized technical skills, who can zip through the corporate bureaucracy, go past the red tape,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Who are Mercenary programmers?</h2>
+<p>Mercenary programmers are individuals with highly specialized technical skills, who can zip through the corporate bureaucracy, go past the red tape, work solo and in isolation with little or no guidance from the existing team and then deliver outcome really really fast. They work without burdening the existing team which feels magical. Their impact-driven business model is loved by CXOs. These are individuals who possess skills so rare, even their short stint can feel like 10x the work accomplished.</p>
+<h2>Can't this be achieved with an internal team?</h2>
+<p>the internal team is often capable, but they are already burdened with upcoming sprint, feature promised during sales call, P0 issues, recruitment, managerial bureaucracy etc.</p>
+<p>Mercenary programmers skip all of that, are answerable to no one, are brutal in their assessments, do not sugarcoat responses and are allowed to choose the best (paid) tool for a given job. When you uncage a bird, it can do wonderful things.</p>
+<h2>Why is it the end of mercenary programmers?</h2>
+<p>I've been professionally programming for 15 years. I've worn the mercenary programmer hat before and have worked with many great programmers too. But with AI making knowledge commoditised, those once-rare skills are now just a prompt away.</p>
+<p>- migrating a large application from one programming language to another.<br>- fix the application becoming slow when there are a lot of users.<br>- identify and fix a nasty memory leak in the app.<br>- upgrade the app has not been updated in 15 years to the latest framework version.<br>- check the app for HIPAA compliance.<br>- implement redundancy / reduce latency / improve performance / reduce server cost<br>- increase the throughput of a service to 50k RPS</p>
+<p>Having experienced the capabilities of frontier models and work dry up even before the arrival of AGI, it's unimaginable what a post-AGI world will look like, how would the jobs of the future be?</p>
+<p>Now that everyone has wings, I would love to see extraordinary, unfathomable things get built.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Era of AI Programmers</title>
         <author>
@@ -44,13 +73,13 @@
 <li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Sometimes the smallest code change can have the biggest impact. AI can never develop the human intelligence to make that small change.</li>
 </ul>
 </li>
-<li>While AI can never be in the Arena, AI programmers would struggle to sense what's wrong with their app without thinking from first principles.</li>
-<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Sometimes <strong>AI tries to cheat</strong>, so developers who just "Accept" are introducing bugs into code every day.</li>
-<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Everyone's got their unique coding style and introduce a personality into the codebase. AI spits out code with zero personality, often robotic.</li>
-<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">AI defenders claiming that there would be more jobs, are dismissing the fact that there will be more noise than signal. For customers it's going to be extremely hard to determine signal and their subconscious mind would fall back on big-tech while making purchase decisions.</li>
+<li>While AI can never be in the arena, AI programmers would struggle to sense what's wrong with their app without thinking from first principles.</li>
+<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Sometimes <strong>AI tries to cheat </strong>(a.k.a hallucinations), so developers who just click "Accept" are introducing bugs into software every day.</li>
+<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Everyone's got their unique coding style and that introduce a personality into the codebase. AI spits out code with zero personality, often robotic.</li>
+<li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">AI defenders claiming that there would be more jobs, are dismissing the fact that there will be more noise than signal. For end users it's going to be extremely hard to differentiate between signals and subconsciously their mind would fall back on big-tech while making software purchase decisions.</li>
 <li>Industrial scale manufacturing created the problem of plenty, often leading to landfills. In this AI era, we are already seeing exponential growth in creation of vibe coded projects often getting flipped/shut down leading to long term decline in trust. 
 <ul>
-<li>eg: Product hunt is mostly AI apps and submissions and is already dead.</li>
+<li>eg: Product hunt is now mostly AI apps submissions and the platform is now  already dead.</li>
 </ul>
 </li>
 <li data-block="true" data-editor="a4o76" data-offset-key="2bfvl-0-0">Finally, there aren't those many jobs to feed 8 billion people. Not everything needs to be made at industrial scale.</li>
@@ -139,11 +168,10 @@
 <li>Why did the slave trade exist?</li>
 <li>Why do politicians in some countries amass a fortune in their lifetime?</li>
 </ul>
-<p>The answer to many of the questions above can be attributed to self-first philosophy. Keeping oneself above anything else. We have more people who act in their self-interest, instead of thinking of their community, locality, city, state, country, and planet.</p>
-<p>Statistically, if extreme human kindness is Gaussian distributed, we should still have about 2% of the world population above Mean + 2SD (standard deviation). 2% of 8B humans is 160M people, but we aren't reading about examples of extreme human compassion that often. What if the mean itself is heavily tilted towards self-interest philosophy, this could probably be due to human evolution wherein genetically we are programmed to survive first. Survival of the fittest is the game we are playing still now.</p>
-<p>But there exist individuals who have made significant contributions to humanity, whilst not enriching oneself[1]. Imagine a world where we have more people in the "Greater Good" Club when compared to the "Self Interest" Group. Wouldn't the world be such a lovely place to live?</p>
-<h6 id="1-how-one-company-gave-up-a-patent-and-saved-1-million-liveslessbrgreaterlessbrgreater"><a href="https://www.cntraveller.in/story/invention-saved-million-lives-use-without-fail/" rel="nofollow noopener" target="_blank">[1] - How one company gave up a patent—and saved 1 million lives<br><br></a></h6>
-<p> </p>
+<p>The answer to many of the questions above can be attributed to self-first philosophy, partly attributed to "scarcity" era which has conditioned humans to keep accumulating in fear of uncertainty. Therefore, because of this ingrained human trait, we have more humans who keep their self-interest first, instead of thinking of their community, locality, city, state, country and planet.</p>
+<p>Statistically, if human kindness is Gaussian distributed, we should still have about 2% of the world population above Mean + 2SD (standard deviation). Lets call them humans with extreme compassion. 2% of 8 billion humans is still 160 million people, but we aren't reading about examples of extreme human compassion that often. What if the mean itself is heavily tilted towards self-interest philosophy, this could probably be due to human evolution wherein genetically we are programmed to survive first. Survival of the fittest is the game we are playing still now.</p>
+<p>But there exist individuals who have made significant contributions to humanity, whilst not enriching oneself[1]. Imagine a world where we have more people in the "greater good" club when compared to the "self-first" group. Wouldn't the world be such a lovely place to live?</p>
+<h6>Examples:<br>- <a href="https://www.cntraveller.in/story/invention-saved-million-lives-use-without-fail/" rel="nofollow noopener" target="_blank">How one company gave up a patent—and saved 1 million lives</a></h6>
 </div>
             ]]>
         </content>
