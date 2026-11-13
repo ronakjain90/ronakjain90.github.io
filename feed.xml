@@ -3,7 +3,7 @@
     <title>Ronak&#x27;s Blog</title>
     <link href="https://ronakgothi.com/feed.xml" rel="self" />
     <link href="https://ronakgothi.com" />
-    <updated>2026-11-13T14:56:27+05:30</updated>
+    <updated>2026-11-13T15:06:42+05:30</updated>
     <author>
         <name>Ronak Gothi</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://ronakgothi.com/p/end-of-mercenary-programmers/"/>
         <id>https://ronakgothi.com/p/end-of-mercenary-programmers/</id>
+        <media:content url="https://ronakgothi.com/media/posts/8/featured.png" medium="image" />
 
         <updated>2026-11-13T14:38:04+05:30</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://ronakgothi.com/media/posts/8/featured.png" alt="" />
                     Who are Mercenary programmers? Mercenary programmers are individuals with highly specialized technical skills, who can zip through the corporate bureaucracy, go past the red tape,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://ronakgothi.com/media/posts/8/featured.png" class="type:primaryImage" alt="" /></p>
                 <h2>Who are Mercenary programmers?</h2>
 <p>Mercenary programmers are individuals with highly specialized technical skills, who can zip through the corporate bureaucracy, go past the red tape, work solo and in isolation with little or no guidance from the existing team and then deliver outcome really really fast. They work without burdening the existing team which feels magical. Their impact-driven business model is loved by CXOs. These are individuals who possess skills so rare, even their short stint can feel like 10x the work accomplished.</p>
 <h2>Can't this be achieved with an internal team?</h2>
